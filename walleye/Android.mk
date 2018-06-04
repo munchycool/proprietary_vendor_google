@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter walleye,$(TARGET_DEVICE)),)
+ifeq ($(TARGET_DEVICE),walleye)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := EaselServicePrebuilt
