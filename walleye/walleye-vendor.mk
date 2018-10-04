@@ -62,7 +62,6 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     EaselServicePrebuilt \
-    QtiTelephonyService \
     Tycho \
     VZWAPNLib \
     embms \
@@ -88,6 +87,7 @@ PRODUCT_PACKAGES += \
     obdm_stub \
     qcrilmsgtunnel \
     wahoo_gfxdrv \
+    QtiTelephonyService \
     VerizonUnifiedSettings \
     cneapiclient \
     com.google.android.camera.experimental2017 \
